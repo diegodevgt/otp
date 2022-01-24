@@ -1,0 +1,44 @@
+// Here you can add other styles
+// Globals
+.c-sidebar{
+    background-color: #2b8000;
+}
+.c-sidebar-nav-item a:hover{
+    background-color: #163e06 !important;
+}
+
+// Login / Register
+html,body,#root{ background-color: white !important;}
+
+.custom-bk{
+    background-image: url("../assets/img/background-main.jpg"); /* The image used */
+    height: auto; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; /* Resize the background image to cover the entire container */
+}
+.title-t{
+    color:#462C6A;
+}
+
+.sub-title-t{
+    color:#2B8000;
+}
+
+.button-t-primary{
+    background-color: #2B8000;
+    color:white;
+}
+.button-t-primary:hover{
+    background-color: white;
+    color:#2B8000;
+    border: #2B8000 solid 1px;
+    cursor: pointer;
+}
+
+.right_panel{
+    background-color: #2B8000;
+}
+.button-t{
+    background-color: #f7f7f8;
+}
